@@ -12,9 +12,11 @@
   display: flex;
 }
 
-.list-box-secondary + .list-box-secondary {
-  margin: 0px 0px 0px 30px;
-  padding: 0px;
+.list-box-secondary {
+  & + & {
+    margin: 0px 0px 0px 30px;
+    padding: 0px;
+  }
 }
 .pading {
   padding-bottom: 94px;
